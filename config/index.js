@@ -1,14 +1,13 @@
 module.exports = {
   //-- SITE SETTINGS -----
-  author: "@konstantinmuenster",
-  siteTitle: "Gatsby Starter Portfolio Minimal",
-  siteShortTitle: "Gatsby", // Used as logo text in header, footer, and splash screen
-  siteDescription:
-    "A modern one-page portfolio with a clean yet expressive design.",
-  siteUrl: "https://gatsby-starter-portfolio-minimal.netlify.app/",
+  author: "@aagjalpankaj",
+  siteTitle: "Pankaj Aagjal",
+  siteShortTitle: "Pankaj Aagjal", // Used as logo text in header, footer, and splash screen
+  siteDescription: "Pankaj Aagjal",
+  siteUrl: "https://aagjalpankaj.me",
   siteLanguage: "en_US",
-  siteIcon: "content/favicon.png", // Relative to gatsby-config file
-  seoTitleSuffix: "Portfolio Minimal", // SEO title syntax will be e.g. "Imprint - {seoTitleSuffix}"
+  siteIcon: "content/aagjalpankaj.png", // Relative to gatsby-config file
+  seoTitleSuffix: "Pankaj Aagjal", // SEO title syntax will be e.g. "Imprint - {seoTitleSuffix}"
   useCookieBar: false, // If you use Google Analytics and want to be GDPR-compliant, set it to true
   googleAnalyticsTrackingId: "", // e.g. UA-XXXXXX-X
 
@@ -50,32 +49,31 @@ module.exports = {
     "https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fmedium.com%2Ffeed%2F%40konstantinmuenster",
   // rssFeed: "https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fwww.theguardian.com%2Finternational%2Frss",
 
-  shownArticles: 3,
+  shownArticles: 0,
 
   //-- SOCIAL MEDIA SETTINGS -----
   // There are icons available for the following platforms:
   // Medium, GitHub, LinkedIn, XING, Behance, E-Mail
   socialMedia: [
     {
-      name: "Linkedin",
-      url: "https://www.linkedin.com/in/konstantin-muenster/",
+      name: "LinkedIn",
+      url: "https://www.linkedin.com/in/aagjalpankaj",
     },
     {
-      name: "Medium",
-      url: "https://konstantinmuenster.medium.com/",
+      name: "GitHub",
+      url: "https://github.com/aagjalpankaj",
     },
     {
-      name: "Github",
-      url:
-        "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal",
-    },
-    {
-      name: "Behance",
-      url: "https://www.behance.net/konstanmnster",
+      name: "StackOverflow",
+      url: "https://stackoverflow.com/users/4355179/aagjalpankaj",
     },
     // {
+    //   name: "Behance",
+    //   url: "https://www.behance.net/konstanmnster",
+    // },
+    // {
     //   name: "Mail",
-    //   url: "mailto:mail@konstantin.digital",
+    //   url: "mailto:aagjalpankaj@gmail.com",
     // },
   ],
 
@@ -83,11 +81,11 @@ module.exports = {
   navLinks: {
     menu: [
       {
-        name: "About Me",
+        name: "About",
         url: "/#about",
       },
       {
-        name: "Features",
+        name: "Projects",
         url: "/#projects",
       },
       {
@@ -96,20 +94,21 @@ module.exports = {
       },
     ],
     button: {
-      useFileName: true,
+      useFileName: false,
       name: "Resume",
-      fileName: "goldenpuppy.pdf", // the file has to be placed inside the static folder at the root level
-      url: "", // if useFileName=false, you can set an anchor link here and use the button for navigational purposes
+      fileName: "", // the file has to be placed inside the static folder at the root level
+      url:
+        "https://docs.google.com/document/d/1xApA968D4TPqGbjnQsiymLFl3Dnflpnf92l3x2ybmts/edit?usp=sharing", // if useFileName=false, you can set an anchor link here and use the button for navigational purposes
     },
   },
   footerLinks: [
-    {
-      name: "Privacy",
-      url: "/privacy",
-    },
-    {
-      name: "Imprint",
-      url: "/imprint",
-    },
+    // {
+    //   name: "Privacy",
+    //   url: "/privacy",
+    // },
+    // {
+    //   name: "Imprint",
+    //   url: "/imprint",
+    // },
   ],
 }
